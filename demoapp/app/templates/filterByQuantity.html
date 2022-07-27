@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form method='POST'  enctype="multipart/form-data">
+		{{ form.hidden_tag() }}
+		Filter By Quantity - {{ form.quantity_range() }} <br>
+		{{ form.submit() }}
+	</form>
+
+	{% for da in da %}
+		<h1>Product Name - {{ da.product_name }}</h1>
+		<p>Transaction ID -  {{ da.transaction_id }} on {{ da.transaction_time }}</p>
+		<p>Delivered to - {{ da.delivered_to_city }}</p>
+	{% endfor %}
+
+</body>
+</html>

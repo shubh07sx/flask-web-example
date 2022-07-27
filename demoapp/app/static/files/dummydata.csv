@@ -1,0 +1,11 @@
+transaction_id,transaction_time,product_name,quantity,unit_price,total_price,delivered_to_city
+1,20220724 120936,Iphone 13,1,75000,75000,Bangalore
+2,20220707 204654,Amazon Alexa,2,3500,7000,Pune
+3,20220512 103445,Predator,1,89000,89000,Kanpur
+4,20220623 143452,Google Home,4,6000,24000,Bangalore
+5,20220202 092435,Apple Watch ,5,24000,120000,Delhi
+6,20220303 084545,ThinkPad,2,80000,160000,Kanpur
+7,20220513 074534,Keychron k2,4,7500,30000,Bangalore
+8,20220403 114323,Macbook Air,5,80000,400000,Mumbai
+9,20220502 074523,Macbook Pro,2,160000,320000,Bangalore
+10,20220301 142324,PS5,5,50000,250000,Mumbai

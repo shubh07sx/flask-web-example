@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Page</title>
+</head>
+<body>
+	<h1>{{ current_user.username }} you can upload your csv file from here!</h1>
+	<form method='POST' enctype="multipart/form-data">
+		{{ form.hidden_tag() }}
+		{{ form.file() }}
+		{{ form.submit() }}
+	</form>
+</form>
+</body>
+</html>
